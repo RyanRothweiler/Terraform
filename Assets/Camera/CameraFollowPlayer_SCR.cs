@@ -18,7 +18,8 @@ public class CameraFollowPlayer_SCR : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
     {
-	
+        // Follow the Player
+        FollowPlayer();
 	}
 
     void FollowPlayer()
